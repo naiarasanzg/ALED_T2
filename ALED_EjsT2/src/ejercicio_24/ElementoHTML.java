@@ -13,7 +13,7 @@ public class ElementoHTML {
 		return this.hijos;
 	}
 	public static int contarEtiquetas(ElementoHTML elemento, String tagBuscado) {
-		if(elemento == null || tag == null) return 0;
+		if(elemento == null || tagBuscado == null) return 0;
 		int numEtiquetas = 0;
 		if(elemento.getHijos().isEmpty()) {
 			if(elemento.getTag().equals(tagBuscado)) {

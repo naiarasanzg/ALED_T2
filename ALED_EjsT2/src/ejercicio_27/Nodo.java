@@ -9,6 +9,7 @@ public class Nodo {
 		return esBSTAux(nodo, null, null);
 
 	}
+	//Función auxiliar
 	private static boolean esBSTAux(Nodo nodo, Nodo min, Nodo max) {
 		
 	}
